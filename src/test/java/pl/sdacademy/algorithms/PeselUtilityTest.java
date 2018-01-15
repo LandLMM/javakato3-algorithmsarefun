@@ -66,7 +66,7 @@ public class PeselUtilityTest {
 
         boolean result = peselUtility.isMale(pesel);
 
-        assertFalse(result);
+        assertTrue(result);
     }
 
 }
